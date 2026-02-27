@@ -1,0 +1,1 @@
+# Lightweight-Embedded-Entropy-Validation-Framework-Bridging-NIST-Statistical-Testing-and-TinyML
