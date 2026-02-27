@@ -12,3 +12,19 @@ This project proposes a Lightweight Embedded Entropy Validation Framework that b
 
 The primary objective of this research is to determine the minimum computational and memory requirements necessary for accurate entropy validation in embedded systems. By combining hardware-level experimentation, standardized statistical testing, and TinyML deployment, the proposed framework aims to provide a scalable and practical solution for real-time entropy monitoring in next-generation secure embedded platforms.
 </p>
+
+<h2>Work Flow</h2>
+
+Hardware Entropy Source<br>
+        ↓<br>
+Preprocessing (XOR / Folding / Mixing)<br>
+        ↓<br>
+Large Bitstream Collection<br>
+        ↓<br>
+NIST Statistical Testing (Ground Truth)<br>
+        ↓<br>
+Feature Extraction<br>
+        ↓<br>
+Tiny Quantized Neural Network<br>
+        ↓<br>
+Real-Time Entropy Classification (Embedded)<br>
